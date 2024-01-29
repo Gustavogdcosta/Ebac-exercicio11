@@ -46,6 +46,10 @@ header h1 {
     margin-left: 80px;
 }
 
+.about p{
+    text-align: justify;
+}
+
 .about div h2 {
     color: rgb(26, 130, 228);
     font-style: italic;
@@ -93,7 +97,8 @@ header h1 {
 @media screen and (max-width: 640px) {
 
     .container {
-        width: 640px;
+        width: 100%;
+        max-width: 640px;
         margin: 0 auto;
     }
 
@@ -139,9 +144,8 @@ header h1 {
     }
 
     .about p {
-        margin: 0 15% 0% 5%;
+        margin: 0 5% 0% 5%;
         text-align: justify;
-        width: 100vw;
     }
 
     .produtos h2 {
@@ -185,7 +189,8 @@ header h1 {
 
 @media screen and (min-width: 641px) and (max-width:1023px) {
     .container {
-        width: 1023px;
+        width: 100%;
+        max-width: 1023px;
         margin: 0 auto;
     }
 
@@ -231,6 +236,7 @@ header h1 {
     .about p {
         margin: 0 5% 0% 5%;
         text-align: justify;
+        max-width: 100%;
     }
 
     .produtos h2 {
